@@ -1,0 +1,303 @@
+/*微信-我的账户*/
+
+.wx-ac{
+	.ac-hd{ 
+		position: relative;
+		background: -webkit-linear-gradient(#ff5b3d,#fb543d,#f5493e,#f3443e);
+		.user{}
+	}
+	.ac-bd{}
+	img{
+		width:100%;
+		height:100%;
+	}
+	a{
+		text-decoration:none;
+	}
+}
+
+.user{
+	color:#FFF;
+	.user-photo{
+		padding-top:px2rem(58);
+	}
+	.user-assets{}
+}
+
+/*设置*/
+.user-set{
+	position:absolute;
+	left:px2rem(30);
+	top:px2rem(30);
+	.iconfont{
+		color:#FFF;
+		display:block;
+		font-size:px2rem(44);
+	}
+}
+.set-common{
+	width:px2rem(44);
+	height:px2rem(44);
+}
+
+/*签到*/
+.user-sign{
+	position:absolute;
+	right:px2rem(35);
+	top:px2rem(33);
+}
+.sign-common{
+	font-size:px2rem(28);
+	color:#FFF;
+	.iconfont{
+		font-size:px2rem(34);
+		display:inline-block;
+		margin-right:px2rem(10);
+    	vertical-align: baseline;
+	}	
+}
+
+/*头像&简称*/
+.ac-user-photo{
+	.photo-box{
+		position:relative;
+		width:px2rem(123);
+		height:px2rem(123);
+		margin:0 auto;
+		.photo{
+			width:100%;
+			height:100%;
+		    overflow: hidden;
+		    vertical-align: middle;
+			border-radius:50%;
+			border:px2rem(5) solid rgba(255,255,255,0.4);
+		}
+		.level{
+			position:absolute;
+			right:0;
+			top:0;
+			z-index:2;
+			width:px2rem(32);
+			height:px2rem(32);
+			line-height:px2rem(32);
+			text-align:center;
+			background:#ffd015;
+			color:#f84d3e;
+			border-radius:50%;
+			font-size:px2rem(20);
+		}
+	}
+	.nick{
+		margin-top:px2rem(30);
+		text-align:center;
+		font-size:px2rem(24);
+	}
+}
+
+/*净资产&余额*/
+.assets-common{
+	@include set-box;
+	margin-top:px2rem(15);
+	.cont{
+		@include box-flex(1); 	
+		text-align: center;
+		.num{
+			font-size:px2rem(36);
+		}
+		.des{
+			padding-top:px2rem(10);
+			padding-bottom:px2rem(30);
+			font-size:px2rem(20);
+		}
+	}
+	.net-assets{
+		position:relative;
+		&:after{
+		    display: block;
+		    content: "";
+		    background: #FFF;
+		    width: 1px;
+		    height: 45%;
+		    position: absolute;
+		    right: 0;
+		    top: 28%;
+		    opacity: 0.3;
+		}
+	}
+	.balance{}
+}
+
+/*提现&充值*/
+.user-ctrl{
+	display: -webkit-box;
+	font-size:px2rem(28);
+	background:#FFF;
+	.btn-ctrl{
+		display:block;
+		-webkit-box-flex: 1; 
+		text-align: center;
+		height:px2rem(90);
+		line-height:px2rem(90);
+		span{
+			display:block;
+			border-right:1px solid #d0d0d2;
+		}
+	}
+	.atms{
+		color:#6e6e74;
+		position:relative;
+		&:after{
+		    display: block;
+		    content: "";
+		    background: #d0d0d2;
+		    width: 1px;
+		    height: 35%;
+		    position: absolute;
+		    right: 0;
+		    top: 30%;
+		}
+	}
+	.recharge{
+		color:#f2433e;
+	}
+}
+
+.user-item{
+	.user-act{
+		height:px2rem(102);
+		font-size:px2rem(28);
+		background:#FFF;
+		>a{
+			color:#64646b;
+			.icon{
+				position:relative;
+				width:px2rem(104);
+				.iconfont{
+					@include both-center;
+					font-size:px2rem(42);
+				}
+			}
+			.detail{
+				display:-webkit-box;
+				-webkit-box-align:center;
+				width:px2rem(475);
+				border-top:1px solid #ccccd2;
+				.name{
+					width:30%;
+				}
+				.txt{
+					width:70%;
+					text-align:right;
+					@include over-hide;
+					em{
+						padding:0 px2rem(4);
+						color:#f2433e;
+						position: relative;
+					}
+				}
+			}
+			>.arrow{
+				width:px2rem(61);
+				border-top:1px solid #ccccd2;
+				display: -webkit-box;
+				-webkit-box-align: center;
+				.iconfont{
+					margin-left:px2rem(5);
+					color:#ccccd2;
+					font-size:px2rem(30);
+    				font-weight: bold;
+				}
+			}
+			>div{
+				float:left;
+				height:100%;
+			}
+		}
+		&:first-child{
+			>a{
+				.detail,.arrow{border-top:none;}
+			}
+		}
+	}
+	.indep-mod{
+		>a{
+			.detail,.arrow{border-top:none;}
+		}
+	}
+}
+
+/*红色点*/
+.tips{
+	display:inline-block;
+	width:px2rem(10);
+	height:px2rem(10);
+	margin:0 px2rem(4);
+	background:#f2433e;
+	border-radius:50%;
+	vertical-align: middle;
+}
+
+/*设置列表样式*/
+.st-item{
+	.user-act{
+		>a{
+			.icon{
+				width:px2rem(30);
+			}
+			.detail{
+				width:px2rem(547);
+			}
+			.arrow{
+				width:px2rem(63);
+				.iconfont{
+					font-weight: normal;
+				}
+			}
+		}
+	}
+}
+
+.tips-box{
+	display: none;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 500;
+	.bg{
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0,0,0,0.5);
+		z-index: 1;
+	}
+	.cont{
+		@include both-center;
+		z-index: 2;
+		background-color: #FFF;
+		border-radius: 15px;
+		.txt{
+			text-align: center;
+			padding: px2rem(45) px2rem(65);
+			min-width: px2rem(450);
+			h3{
+				font-size: px2rem(48);
+				color: #f2433e;
+				&.is-signed{
+					font-size: px2rem(24);
+				}
+			}
+			p{
+				font-size: px2rem(28);
+				line-height: px2rem(38);
+				em{
+					color:#f2433e;
+				}
+			}
+		}
+	}
+}
+

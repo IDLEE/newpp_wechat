@@ -1,0 +1,35 @@
+$baseFontSize:100;
+$designWidth:1080;
+$baseWidth:1080;
+$maxWidth:750px;
+
+@function px2rem($px){
+  @return ($px/$baseFontSize)*($baseWidth/$designWidth)+rem;
+}
+@mixin both-center(){
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform:translate(-50%,-50%);
+}
+
+@mixin v-center(){
+  position: absolute;
+  top:50%;
+  transform:translateY(-50%);
+}
+@mixin h-center(){
+  position: absolute;
+  left: 50%;
+  transform:translateX(-50%);
+}
+@mixin clear-both(){
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}

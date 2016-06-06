@@ -1,0 +1,292 @@
+@import "variables";
+@import "mixin/function";
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+	max-width: px2rem(640);
+	margin: auto;
+	color: $cblack;
+	background: #f0eff5;
+	font-size: px2rem(24);
+	font-family: 'microsoft yahei';
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+
+a:focus,input:focus,p:focus,div:focus{
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+
+.hide{
+	display: none !important;
+}
+.show{
+	display: block !important;
+}
+
+.t-c{text-align: center;}
+.t-l{text-align: left;}
+.t-r{text-align: right;}
+.mt15{margin-top:px2rem(15);}
+.mt20{margin-top:px2rem(20);}
+.mb20{margin-bottom:px2rem(20);}
+.mt35{margin-top:px2rem(35);}
+.mtb20{margin-top:px2rem(20);margin-bottom:px2rem(20);}
+
+.em{color: $cred;}
+strong{font-weight: 700;}
+
+/*全站glob*/
+.wx-wrap{
+	
+}
+
+/*wx-nav*/
+.wx-nav{
+	position: relative;
+	background-color: $cred;
+	color: #fff;
+	line-height: px2rem(100);
+	.wx-nav-back{
+		position: absolute;
+		height: 100%;
+		width: 12%;
+		background-color: darken($cred,10%);
+			text-align: center;
+		.iconfont{
+			font-size: px2rem(50);
+		}
+	}
+	.wx-nav-box{
+		font-size: px2rem(28);
+		text-align: center;
+	}
+}
+
+.wx-content{}
+
+/*tab切换*/
+
+.wx-tab-box{
+	background: #fff;
+	.tab-nav{
+		display: flex;
+		text-align: center;
+		li{
+			flex:1;
+			margin: px2rem(35) 0;
+			font-size: $fs28;
+			color: $cgray3;
+			&+li{
+				border-left: 1px solid #ccc;
+			}
+			&.active{
+				color: $cred;
+			}
+		}
+	}
+	.tab-item{
+		display: none;
+		padding: px2rem(25) px2rem(30);
+		&.active{
+			display: block;
+		}
+	}
+	
+}
+
+/*表格*/
+.wx-table{
+	width: 100%;
+	font-size: $fs24;
+	text-align: center;
+	th,td{
+		text-align: center;
+		padding: px2rem(25) 0;
+	}
+	tr{
+		border-bottom: 1px dashed #EFE8E8;
+	}
+	thead tr:first-child{
+		border-bottom: 1px solid #ccc;
+	}
+}
+
+/*按钮*/
+.wx-btn{
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	font-size:px2rem(28);
+	padding:px2rem(25) 0;
+	background-color: #fff;
+	color: #333;
+	text-decoration: none;
+}
+
+.wx-btn-revest{
+	display: inline-block;
+	width:px2rem(400);
+	color: $cred;
+	border: 1px solid;
+}
+.wx-btn-sure{
+	background-color: #f2433e;
+	color: #FFF;
+}
+.wx-btn-countdown{
+	background-color: #b0b0b0;
+	color: #FFF;
+}
+.wx-btn-over{
+	background-color: #b0b0b0;
+	color: #666666;
+}
+.wx-btn-logout{
+	width:px2rem(590);
+	margin-left:px2rem(25);
+	position:fixed;
+	bottom:0;
+	border-radius:5px;
+}
+.wx-fix-bt{
+	position: fixed;
+	bottom: 0;
+	z-index: 200;
+}
+
+/*背景*/
+.bg-gray{background: #f0eff5;}
+
+/*tips*/
+.wx-tips-box{
+	position: absolute;
+	padding: px2rem(10) px2rem(25);
+	@extend .fs22;
+	background-color: #484749;
+	color: #fff;
+	text-align: center;
+	border-radius: 5px;
+	transform: translate(-50%,0);
+	.wx-tips-arrow{
+		position: absolute;
+		border: 8px solid transparent;
+	}
+	.wx-tips-arrowdown{
+		bottom: -16px;
+	    left: 50%;
+	    margin-left: -8px;
+	    border-top-color: #484749;
+	}
+	.wx-tips-arrowup{
+		top: -16px;
+	    left: 50%;
+	    margin-left: -8px;
+	    border-bottom-color: #484749;
+	}
+	.wx-tips-arrowleft{
+		top: 50%;
+	    left: -16px;
+	    margin-top: -8px;
+	    border-right-color: #484749;
+	}
+	.wx-tips-arrowright{
+		top: 50%;
+	    right: -16px;
+	    margin-top: -8px;
+	    border-left-color: #484749;
+	}
+	.wx-tips-content{}
+}
+
+
+.pp-dialog{
+	.pp-modal{
+		.pp-modal-footer{
+			.pp-btn-group{
+				.pp-modal-btn{
+					background: #FFF;
+				}
+			}
+		}
+	}
+	
+	.active{
+		background-color: rgba(255,255,255,0.4);
+	}
+	.pp-loading{
+		position: fixed;
+		top:50%;
+		left:52%;
+	}
+}
+
+.main-menu {
+  width: 100%;
+  @include flex;
+  justify-content: space-between;
+  border-top: 1px solid #b2b2b6;
+  background: #fff;
+  .menu-item {
+    @include flex-row(1);
+    @extend .fs20;
+    color: #818187;
+    text-align: center;
+    a {
+      color: #818187;
+    }
+    .icon {
+      display: block;
+      padding: px2rem(10) 0;
+      font-size: px2rem(60);
+
+    }
+    p {
+      padding-bottom: px2rem(10);
+    }
+  }
+}
+
+.wx-scroll-wrap{
+	@include flex;
+	-webkit-flex-direction:column;
+	flex-direction:column;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	.iscroll-bd{
+		@include flex-row(1);
+		overflow: hidden;
+		position: relative;
+		.refresh,& .reload { 
+	        position: absolute;
+	        left: 45%;
+	        font-size: 45px;
+	        color: $cred;
+	    }
+	    .refresh{
+	    	top: 30px;
+	    }
+	    .reload { 
+	        bottom: 30px;
+	    }
+	}
+	.wx-detail-wrap{
+		position: relative;
+	}
+	.wx-nav{
+		height: px2rem(100);
+	}
+	.iscroll-c{
+		z-index: 10;
+	}
+	.wx-footer{
+	}
+}

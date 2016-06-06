@@ -1,0 +1,56 @@
+@import "../../scss/index";
+.pp-mask{
+  position: fixed;
+  top:0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,.5);
+  z-index: 1000;
+}
+.pp-modal{
+  $modal-bg:#fff;
+  $modal-color:#666666;
+  $modal-font-size:px2rem(48);
+  width: 90%;
+  background-color: $modal-bg;
+  color: $modal-color;
+  font-size: $modal-font-size;
+  @include both-center();
+  position: fixed;
+  border-radius: px2rem(10);
+  padding-bottom: px2rem(140);
+  z-index: 1001;
+  .pp-modal-content{
+    font-size: px2rem(48);
+    padding: px2rem(150) 0;
+    text-align: center;
+  }
+  .pp-modal-footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  .pp-btn-group{
+    width: 100%;
+    @include clear-both();
+    .pp-modal-btn{
+      float: left;
+      width: 50%;
+      &:nth-child(1){
+        border-right: px2rem(4) solid $light-gray;
+      }
+    }
+  }
+  .pp-modal-btn{
+    height: px2rem(140);
+    border-top:px2rem(4) solid $light-gray;
+    color: $primary;
+    font-size: px2rem(48);
+    text-align: center;
+    line-height: px2rem(140);
+    &:active{
+      background-color: $light-gray;
+    }
+  }
+}

@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name='viewport' content='width=device-width,minimum-scale=1.0 maximum-scale=1.0 user-scalable=no'>
+    <meta name="format-detection" content="telephone=no" />
+	<title>设置</title>
+	<link rel="stylesheet" href="./src/iconfont/iconfont.css" />
+    <link rel="stylesheet" href="./src/stylesheets/base.css" />
+    <link rel="stylesheet" href="./src/stylesheets/common.css" />
+    <link rel="stylesheet" href="./ppmobile/assets/pp-mobile.css">
+	<script src="./src/js/common/compatible.js"></script>
+</head>
+<body>
+<div class="wx-scroll-wrap">
+
+<div class="wx-nav nav-button nav-history-back">
+    <div data-js="back" class="wx-nav-back">
+        <i class="iconfont"></i>
+    </div>
+    <div class="wx-nav-box">设置</div>
+</div>
+
+<div class="iscroll-bd">
+    <div class="wx-st wx-warp">
+	<section class="st-hd user-item st-item">
+		<div class="user-act">
+			<a href="/Bank">
+				<div class="icon">
+					<i></i>
+				</div>
+				<div class="detail">
+					<div class="name">我的银行卡</div>
+					<div class="txt" data-id="bankBind"><span>其他银行[8003]</span></div>
+				</div>
+				<div class="arrow">
+					<i class="iconfont arrow"></i>
+				</div>
+			</a>
+		</div>
+		<div class="user-act">
+			<a href="/RealName">
+				<div class="icon">
+					<i></i>
+				</div>
+				<div class="detail">
+					<div class="name">实名认证</div>
+					<div class="txt" data-id="realNameBind"><span>吴**</span></div>
+				</div>
+				<div class="arrow">
+					<i class="iconfont arrow"></i>
+				</div>
+			</a>
+		</div>
+
+		<div class="user-act indep-mod mt20">
+            <a href="javascript:;" onclick="document.location.href = 'https://cnt.ppmoney.com/wap/help/index.html'">
+                <div class="icon">
+                    <i></i>
+                </div>
+                <div class="detail">
+                    <div class="name">关于我们</div>
+                    <div class="txt"></div>
+                </div>
+                <div class="arrow">
+                    <i class="iconfont arrow"></i>
+                </div>
+            </a>
+		</div>
+		<div class="user-act">
+			<a href="javascript:;" onclick="document.location.href = '/Home/Contact'">
+				<div class="icon">
+					<i></i>
+				</div>
+				<div class="detail">
+					<div class="name">联系我们</div>
+				</div>
+				<div class="arrow">
+					<i class="iconfont arrow"></i>
+				</div>
+			</a>
+		</div>
+		<div class="user-act">
+			<a href="javascript:;" onclick="document.location.href = 'https://appdownload.ppmoney.com/fx/fx.html'">
+				<div class="icon">
+					<i></i>
+				</div>
+				<div class="detail">
+					<div class="name">下载APP</div>
+					<div class="txt"></div>
+				</div>
+				<div class="arrow">
+					<i class="iconfont arrow"></i>
+				</div>
+			</a>
+		</div>
+	</section>
+
+    <a href="javascript:;" class="wx-btn mt20" data-id="btnLogout">退出登录</a>
+</div>
+</div>
+
+
+<script src="./src/js/common/compatible.js?v=20150710"></script>
+<script src="./src/js/zepto.min.js?v=20150710"></script>
+<script src="./src/js/common/common.js?v=20150710"></script>
+<script src="./ppmobile/assets/pp-mobile.js?v=20150710"></script>
+<script src="./src/js/iscroll-probe.js?v=20150710"></script>
+<script>
+
+    //var tokenFeild = $("input[name='__RequestVerificationToken']");
+
+    // $.ajax({
+    //     url: Config.userInfo,
+    //     type: "GET",
+    //     dataType: "json",
+    //     data: {
+    //         "__RequestVerificationToken": tokenFeild.val()
+    //     },
+    //     success: function (data) {
+    //         if (data) {
+    //             var strBankMsg = "";
+    //             var strNameMsg = "";
+    //             if (data.isNeedBindBank) {
+    //                 strBankMsg = "<em>（未绑定）</em>";
+    //             } else {
+    //                 strBankMsg = "<span>" + data.bankName + "</span>";
+    //             }
+    //             $("[data-id='bankBind']").html(strBankMsg);
+    //             if (data.isNeedRealNameAuthen) {
+    //                 strNameMsg = "<em>（未绑定）</em>";
+    //             } else {
+    //                 strNameMsg = "<span>" + data.userName + "</span>";
+    //             }
+    //             $("[data-id='realNameBind']").html(strNameMsg);
+    //         }
+    //         //请求success之后，loadding消失，显示结果
+    //         pp.loading.close();
+    //     },
+    //     error: function (data) {
+    //         console.log(data);
+    //     }
+    // });
+
+    //退出
+    document.querySelector("[data-id='btnLogout']").addEventListener("touchstart", function (ev) {
+        pp.alert({
+            text: "确定要退出登录吗？"
+        },
+        function (flag) {
+            if (flag) {
+                //window.location.href = Config.btnLogout;
+                pp.alert.close();
+            } else {
+                pp.alert.close();
+            }
+        });
+    }, false);
+
+</script>
+
+
+
+    
+    </div>
+</body>
+</html>

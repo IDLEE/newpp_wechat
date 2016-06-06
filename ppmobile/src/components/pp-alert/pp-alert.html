@@ -1,0 +1,16 @@
+<div class="pp-dialog" data-type={{dialogType}} id="{{id}}">
+    <div class="pp-mask"></div>
+    <div class="pp-modal">
+        <div class="pp-modal-content">{{text}}</div>
+        <div class="pp-modal-footer">
+            {{#if showCancelButton}}
+            <div class="pp-btn-group">
+                <div class="pp-modal-btn" data-action="cancel">{{cancelButtonText}}</div>
+                <div class="pp-modal-btn" data-action="confirm">{{confirmButtonText}}</div>
+            </div>
+            {{else}}
+            <div class="pp-modal-btn btn-block" data-action="confirm">{{confirmButtonText}}</div>
+            {{/if}}
+        </div>
+    </div>
+</div>

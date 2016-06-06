@@ -1,0 +1,19 @@
+$cblack: #333;
+$cred: #f2433e;
+$clight: #a3a3a3;
+$cgray: #a6a6ac;
+$cgray2: #64646b;
+$cgray3: #62666f;
+
+@for $i from 12 through 40 {
+  .fs#{$i} {
+    font-size: px2rem($i);
+  }
+}
+
+$fs18: px2rem(18);
+$fs20: px2rem(20);
+$fs24: px2rem(24);
+$fs28: px2rem(28);
+$fs32: px2rem(32);
+$fs48: px2rem(48);

@@ -1,0 +1,74 @@
+$baseFontSize:100;
+$designWidth:640;
+$baseWidth:1080;
+$maxWidth:750px;
+
+@function px2rem($px){
+  @return ($px/$baseFontSize)*($baseWidth/$designWidth)+rem;
+}
+@mixin both-center(){
+  position: absolute;
+  top:50%;
+  left: 50%;
+  @include transform(translate(-50%,-50%));
+}
+
+@mixin v-center(){
+  position: absolute;
+  top:50%;
+  transform:translateY(-50%);
+}
+@mixin h-center(){
+  position: absolute;
+  left: 50%;
+  transform:translateX(-50%);
+}
+@mixin clear-both(){
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
+@mixin flex(){
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+}
+@mixin flex-row($num) {
+  -webkit-box-flex: $num;      /* OLD - iOS 6-, Safari 3.1-6 */
+  -moz-box-flex: $num;         /* OLD - Firefox 19- */
+  -webkit-flex: $num;          /* Chrome */
+  -ms-flex: $num;              /* IE 10 */
+  flex: $num;                  /* NEW, Spec - Opera 12.1, Firefox 20+ */
+}
+@mixin setcss3($name,$value){   
+  -moz-#{$name}:#{$value};   
+  -webkit-#{$name}:#{$value};       
+  #{$name}:#{$value};
+}
+@mixin over-hide(){   
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+@mixin set-box(){
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-box;
+    display: -o-box;
+    display: box;
+}
+@mixin box-flex($scale){
+    -webkit-box-flex: $scale ;
+    -moz-box-flex: $scale ;
+    -ms-box-flex: $scale ;
+    -o-box-flex: $scale ;
+    box-flex: $scale ;
+}
+

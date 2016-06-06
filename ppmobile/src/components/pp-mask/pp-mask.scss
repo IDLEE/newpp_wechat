@@ -1,0 +1,123 @@
+@import "../../scss/index";
+$animationTime:0.8s;
+.pp-mask-dialog{
+  width: 80%;
+  color: #fff;
+  @include both-center();
+  top:40%;
+  .pp-mask-title{
+    text-align: center;
+    font-size: px2rem(66);
+    border-bottom: 1px solid #fff;
+    padding-bottom: px2rem(70);
+  }
+  .pp-mask-content{
+    font-size: px2rem(42);
+    padding-top: px2rem(70);
+    line-height: 1.6em;
+  }
+}
+.pp-mask-close{
+  font-size: px2rem(150);
+  color: #fff;
+  position: absolute;
+  left: 42%;
+  bottom: 10%;
+  display: none;
+  animation: zoomIn $animationTime both;
+}
+.pp-mask-animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+@-webkit-keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+}
+@-webkit-keyframes fadeOutUp {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+}
+
+@keyframes fadeOutUp {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+}
+
+.fadeOutUp {
+  -webkit-animation-name: fadeOutUp;
+  animation-name: fadeOutUp;
+}
+@-webkit-keyframes zoomIn {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+.pp-mask-transition-in{
+  animation: fadeInDown $animationTime both;
+}
+.pp-mask-transition-out{
+  animation: fadeOutUp $animationTime both;
+}

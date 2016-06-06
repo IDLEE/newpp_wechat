@@ -1,0 +1,451 @@
+/* line 9, ../sass/variables.scss */
+.fs12 {
+  font-size: px2rem(12);
+}
+
+/* line 9, ../sass/variables.scss */
+.fs13 {
+  font-size: px2rem(13);
+}
+
+/* line 9, ../sass/variables.scss */
+.fs14 {
+  font-size: px2rem(14);
+}
+
+/* line 9, ../sass/variables.scss */
+.fs15 {
+  font-size: px2rem(15);
+}
+
+/* line 9, ../sass/variables.scss */
+.fs16 {
+  font-size: px2rem(16);
+}
+
+/* line 9, ../sass/variables.scss */
+.fs17 {
+  font-size: px2rem(17);
+}
+
+/* line 9, ../sass/variables.scss */
+.fs18 {
+  font-size: px2rem(18);
+}
+
+/* line 9, ../sass/variables.scss */
+.fs19 {
+  font-size: px2rem(19);
+}
+
+/* line 9, ../sass/variables.scss */
+.fs20 {
+  font-size: px2rem(20);
+}
+
+/* line 9, ../sass/variables.scss */
+.fs21 {
+  font-size: px2rem(21);
+}
+
+/* line 9, ../sass/variables.scss */
+.fs22 {
+  font-size: px2rem(22);
+}
+
+/* line 9, ../sass/variables.scss */
+.fs23 {
+  font-size: px2rem(23);
+}
+
+/* line 9, ../sass/variables.scss */
+.fs24 {
+  font-size: px2rem(24);
+}
+
+/* line 9, ../sass/variables.scss */
+.fs25 {
+  font-size: px2rem(25);
+}
+
+/* line 9, ../sass/variables.scss */
+.fs26 {
+  font-size: px2rem(26);
+}
+
+/* line 9, ../sass/variables.scss */
+.fs27 {
+  font-size: px2rem(27);
+}
+
+/* line 9, ../sass/variables.scss */
+.fs28 {
+  font-size: px2rem(28);
+}
+
+/* line 9, ../sass/variables.scss */
+.fs29 {
+  font-size: px2rem(29);
+}
+
+/* line 9, ../sass/variables.scss */
+.fs30 {
+  font-size: px2rem(30);
+}
+
+/* line 9, ../sass/variables.scss */
+.fs31 {
+  font-size: px2rem(31);
+}
+
+/* line 9, ../sass/variables.scss */
+.fs32 {
+  font-size: px2rem(32);
+}
+
+/* line 9, ../sass/variables.scss */
+.fs33 {
+  font-size: px2rem(33);
+}
+
+/* line 9, ../sass/variables.scss */
+.fs34 {
+  font-size: px2rem(34);
+}
+
+/* line 9, ../sass/variables.scss */
+.fs35 {
+  font-size: px2rem(35);
+}
+
+/* line 9, ../sass/variables.scss */
+.fs36 {
+  font-size: px2rem(36);
+}
+
+/* line 9, ../sass/variables.scss */
+.fs37 {
+  font-size: px2rem(37);
+}
+
+/* line 9, ../sass/variables.scss */
+.fs38 {
+  font-size: px2rem(38);
+}
+
+/* line 9, ../sass/variables.scss */
+.fs39 {
+  font-size: px2rem(39);
+}
+
+/* line 9, ../sass/variables.scss */
+.fs40 {
+  font-size: px2rem(40);
+}
+
+/* line 4, ../sass/prj-detial.scss */
+.wx-btn-invest {
+  position: fixed;
+  bottom: 0;
+}
+
+/* line 9, ../sass/prj-detial.scss */
+.wx-content {
+  margin-bottom: 1.51875rem;
+}
+
+/* line 13, ../sass/prj-detial.scss */
+.rank-box {
+  display: flex;
+  padding-bottom: 0.675rem;
+  font-size: px2rem(24);
+  text-align: center;
+}
+/* line 18, ../sass/prj-detial.scss */
+.rank-box li {
+  flex: 1;
+}
+/* line 20, ../sass/prj-detial.scss */
+.rank-box li .iconfont {
+  display: inline-block;
+  font-size: 1.1475rem;
+  color: #ff7975;
+}
+/* line 25, ../sass/prj-detial.scss */
+.rank-box li span {
+  display: inline-block;
+  padding: 0.0675rem 0;
+}
+
+/* line 32, ../sass/prj-detial.scss */
+.download-app {
+  padding: 0.675rem 0;
+}
+
+/* line 36, ../sass/prj-detial.scss */
+.intro-box {
+  border-left: 1px solid #ccc;
+  text-align: center;
+}
+/* line 39, ../sass/prj-detial.scss */
+.intro-box .item {
+  font-size: px2rem(24);
+}
+/* line 27, ../sass/mixin/function.scss */
+.intro-box .item:before, .intro-box .item:after {
+  content: " ";
+  display: table;
+}
+/* line 32, ../sass/mixin/function.scss */
+.intro-box .item:after {
+  clear: both;
+}
+/* line 43, ../sass/prj-detial.scss */
+.intro-box .item > div {
+  padding: 0.25313rem 0;
+  border: 1px solid #ccc;
+  margin: -1px 0 0 0px;
+  border-left: 0;
+}
+/* line 49, ../sass/prj-detial.scss */
+.intro-box .item .name {
+  float: left;
+  width: 20%;
+  background-color: #f0f0f5;
+}
+/* line 54, ../sass/prj-detial.scss */
+.intro-box .item .describe {
+  float: left;
+  width: 30%;
+}
+/* line 58, ../sass/prj-detial.scss */
+.intro-box .item .describe-l {
+  width: 80%;
+}
+
+/* line 65, ../sass/prj-detial.scss */
+.intro-box-table {
+  border: 1px solid #CCC;
+  width: 100%;
+}
+/* line 70, ../sass/prj-detial.scss */
+.intro-box-table tbody tr td {
+  border: 1px solid #CCC;
+  padding: 0.16875rem;
+  line-height: 1.42857143;
+  vertical-align: middle;
+  border-top: 1px solid #CCC;
+  text-align: center;
+}
+
+/* line 82, ../sass/prj-detial.scss */
+.prj-note {
+  margin: 0.50625rem 0;
+}
+/* line 84, ../sass/prj-detial.scss */
+.prj-note h2 {
+  border-left: 3px solid;
+  padding-left: 0.16875rem;
+}
+/* line 88, ../sass/prj-detial.scss */
+.prj-note .note-c {
+  color: #64646b;
+  margin: 0.3375rem 0;
+}
+/* line 91, ../sass/prj-detial.scss */
+.prj-note .note-c > * {
+  line-height: 1.4;
+}
+
+/* line 95, ../sass/prj-detial.scss */
+.wx-d-hd {
+  background: #fff;
+  padding: 0.3375rem 0;
+  text-align: center;
+}
+/* line 99, ../sass/prj-detial.scss */
+.wx-d-hd h1 {
+  padding-top: 0.84375rem;
+  padding-bottom: 0.3375rem;
+  font-size: px2rem(32);
+  color: #333;
+}
+/* line 106, ../sass/prj-detial.scss */
+.wx-d-hd .ticket-box u {
+  margin: 0 0.08438rem;
+  padding: 0.10125rem 0.135rem;
+  border: 1px solid;
+  color: #f2433e;
+  font-size: px2rem(20);
+  text-decoration: none;
+}
+/* line 115, ../sass/prj-detial.scss */
+.wx-d-hd .profit-box {
+  margin: 0.50625rem 0;
+  color: #f2433e;
+}
+/* line 118, ../sass/prj-detial.scss */
+.wx-d-hd .profit-box big {
+  font-size: 1.35rem;
+}
+/* line 121, ../sass/prj-detial.scss */
+.wx-d-hd .profit-box small {
+  font-size: px2rem(32);
+}
+/* line 124, ../sass/prj-detial.scss */
+.wx-d-hd .profit-box p {
+  font-size: px2rem(20);
+  color: #a3a3a3;
+  margin-top: 0.16875rem;
+}
+/* line 130, ../sass/prj-detial.scss */
+.wx-d-hd .prj-list {
+  padding-top: 0.50625rem;
+  display: flex;
+}
+/* line 133, ../sass/prj-detial.scss */
+.wx-d-hd .prj-list li {
+  flex: 1;
+  border-right: 1px solid #ccc;
+}
+/* line 135, ../sass/prj-detial.scss */
+.wx-d-hd .prj-list li:last-child {
+  border-color: transparent;
+}
+/* line 139, ../sass/prj-detial.scss */
+.wx-d-hd .prj-list .v {
+  font-size: px2rem(28);
+  padding-bottom: 0.25313rem;
+}
+/* line 140, ../sass/prj-detial.scss */
+.wx-d-hd .prj-list .t {
+  font-size: px2rem(20);
+  color: #a6a6ac;
+}
+
+/* line 144, ../sass/prj-detial.scss */
+.ticket-box {
+  margin: 0.3375rem 0;
+}
+
+/* line 148, ../sass/prj-detial.scss */
+.wx-d-bd {
+  background: #fff;
+  margin: 0.3375rem 0;
+  padding: 0.42188rem 0.50625rem;
+}
+/* line 152, ../sass/prj-detial.scss */
+.wx-d-bd .t {
+  float: left;
+  font-size: px2rem(28);
+}
+/* line 153, ../sass/prj-detial.scss */
+.wx-d-bd .v {
+  float: right;
+  font-size: px2rem(28);
+  color: #62666f;
+}
+/* line 154, ../sass/prj-detial.scss */
+.wx-d-bd .em {
+  color: #f2433e;
+}
+/* line 27, ../sass/mixin/function.scss */
+.wx-d-bd .invest:before, .wx-d-bd .invest:after,
+.wx-d-bd .profit:before,
+.wx-d-bd .profit:after,
+.wx-d-bd .my-ticket:before,
+.wx-d-bd .my-ticket:after {
+  content: " ";
+  display: table;
+}
+/* line 32, ../sass/mixin/function.scss */
+.wx-d-bd .invest:after,
+.wx-d-bd .profit:after,
+.wx-d-bd .my-ticket:after {
+  clear: both;
+}
+/* line 160, ../sass/prj-detial.scss */
+.wx-d-bd .invest {
+  margin-bottom: 0.3375rem;
+}
+/* line 163, ../sass/prj-detial.scss */
+.wx-d-bd .money {
+  border-bottom: 1px solid #ccc;
+}
+/* line 166, ../sass/prj-detial.scss */
+.wx-d-bd .profit, .wx-d-bd .my-ticket {
+  color: #62666f;
+  padding: 0.3375rem 0;
+}
+/* line 170, ../sass/prj-detial.scss */
+.wx-d-bd .bg-gray {
+  margin: 0.3375rem 0;
+}
+/* line 176, ../sass/prj-detial.scss */
+.wx-d-bd input {
+  width: 80%;
+  border: 0;
+  font-weight: 700;
+  font-size: px2rem(48);
+}
+/* line 181, ../sass/prj-detial.scss */
+.wx-d-bd input:focus {
+  outline: 0;
+}
+/* line 185, ../sass/prj-detial.scss */
+.wx-d-bd .error-tips {
+  margin-bottom: 0.3375rem;
+}
+/* line 188, ../sass/prj-detial.scss */
+.wx-d-bd label {
+  font-size: px2rem(32);
+  font-family: Arial;
+}
+
+/* line 190, ../sass/prj-detial.scss */
+.section {
+  margin-bottom: 0.3375rem;
+  padding: 0.3375rem 0;
+  font-size: px2rem(20);
+  text-align: center;
+}
+
+/* line 196, ../sass/prj-detial.scss */
+.wx-d-fd {
+  background: #fff;
+}
+
+/* line 199, ../sass/prj-detial.scss */
+.wx-det-tips .det-tips-txt {
+  padding: 0.42188rem 0.50625rem;
+  font-size: 0.3375rem;
+  color: #c48100;
+  background-color: #ffebb4;
+}
+/* line 204, ../sass/prj-detial.scss */
+.wx-det-tips .det-tips-txt > a {
+  color: #c48100;
+  text-decoration: underline;
+}
+
+/* line 211, ../sass/prj-detial.scss */
+.prj-detail-iscroll {
+  position: absolute;
+  left: 0;
+  top: 1.6875rem;
+  bottom: 1.6875rem;
+  background-color: red;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* line 222, ../sass/prj-detial.scss */
+.invest-tips-box .error-tips {
+  font-size: 0.3375rem;
+  color: #f2433e;
+}
+
+/* line 228, ../sass/prj-detial.scss */
+.wx-prj-det {
+  position: relative;
+}

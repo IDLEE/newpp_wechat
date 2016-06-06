@@ -1,0 +1,540 @@
+@charset "UTF-8";
+/* line 9, ../sass/variables.scss */
+.fs12 {
+  font-size: px2rem(12);
+}
+
+/* line 9, ../sass/variables.scss */
+.fs13 {
+  font-size: px2rem(13);
+}
+
+/* line 9, ../sass/variables.scss */
+.fs14 {
+  font-size: px2rem(14);
+}
+
+/* line 9, ../sass/variables.scss */
+.fs15 {
+  font-size: px2rem(15);
+}
+
+/* line 9, ../sass/variables.scss */
+.fs16 {
+  font-size: px2rem(16);
+}
+
+/* line 9, ../sass/variables.scss */
+.fs17 {
+  font-size: px2rem(17);
+}
+
+/* line 9, ../sass/variables.scss */
+.fs18 {
+  font-size: px2rem(18);
+}
+
+/* line 9, ../sass/variables.scss */
+.fs19 {
+  font-size: px2rem(19);
+}
+
+/* line 9, ../sass/variables.scss */
+.fs20, .main-menu .menu-item {
+  font-size: px2rem(20);
+}
+
+/* line 9, ../sass/variables.scss */
+.fs21 {
+  font-size: px2rem(21);
+}
+
+/* line 9, ../sass/variables.scss */
+.fs22, .wx-tips-box {
+  font-size: px2rem(22);
+}
+
+/* line 9, ../sass/variables.scss */
+.fs23 {
+  font-size: px2rem(23);
+}
+
+/* line 9, ../sass/variables.scss */
+.fs24 {
+  font-size: px2rem(24);
+}
+
+/* line 9, ../sass/variables.scss */
+.fs25 {
+  font-size: px2rem(25);
+}
+
+/* line 9, ../sass/variables.scss */
+.fs26 {
+  font-size: px2rem(26);
+}
+
+/* line 9, ../sass/variables.scss */
+.fs27 {
+  font-size: px2rem(27);
+}
+
+/* line 9, ../sass/variables.scss */
+.fs28 {
+  font-size: px2rem(28);
+}
+
+/* line 9, ../sass/variables.scss */
+.fs29 {
+  font-size: px2rem(29);
+}
+
+/* line 9, ../sass/variables.scss */
+.fs30 {
+  font-size: px2rem(30);
+}
+
+/* line 9, ../sass/variables.scss */
+.fs31 {
+  font-size: px2rem(31);
+}
+
+/* line 9, ../sass/variables.scss */
+.fs32 {
+  font-size: px2rem(32);
+}
+
+/* line 9, ../sass/variables.scss */
+.fs33 {
+  font-size: px2rem(33);
+}
+
+/* line 9, ../sass/variables.scss */
+.fs34 {
+  font-size: px2rem(34);
+}
+
+/* line 9, ../sass/variables.scss */
+.fs35 {
+  font-size: px2rem(35);
+}
+
+/* line 9, ../sass/variables.scss */
+.fs36 {
+  font-size: px2rem(36);
+}
+
+/* line 9, ../sass/variables.scss */
+.fs37 {
+  font-size: px2rem(37);
+}
+
+/* line 9, ../sass/variables.scss */
+.fs38 {
+  font-size: px2rem(38);
+}
+
+/* line 9, ../sass/variables.scss */
+.fs39 {
+  font-size: px2rem(39);
+}
+
+/* line 9, ../sass/variables.scss */
+.fs40 {
+  font-size: px2rem(40);
+}
+
+/* line 4, ../sass/layout.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 10, ../sass/layout.scss */
+body {
+  max-width: 10.8rem;
+  margin: auto;
+  color: #333;
+  background: #f0eff5;
+  font-size: 0.405rem;
+  font-family: 'microsoft yahei';
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* line 20, ../sass/layout.scss */
+a:focus, input:focus, p:focus, div:focus {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* line 24, ../sass/layout.scss */
+.hide {
+  display: none !important;
+}
+
+/* line 27, ../sass/layout.scss */
+.show {
+  display: block !important;
+}
+
+/* line 31, ../sass/layout.scss */
+.t-c {
+  text-align: center;
+}
+
+/* line 32, ../sass/layout.scss */
+.t-l {
+  text-align: left;
+}
+
+/* line 33, ../sass/layout.scss */
+.t-r {
+  text-align: right;
+}
+
+/* line 34, ../sass/layout.scss */
+.mt15 {
+  margin-top: 0.25313rem;
+}
+
+/* line 35, ../sass/layout.scss */
+.mt20 {
+  margin-top: 0.3375rem;
+}
+
+/* line 36, ../sass/layout.scss */
+.mb20 {
+  margin-bottom: 0.3375rem;
+}
+
+/* line 37, ../sass/layout.scss */
+.mt35 {
+  margin-top: 0.59062rem;
+}
+
+/* line 38, ../sass/layout.scss */
+.mtb20 {
+  margin-top: 0.3375rem;
+  margin-bottom: 0.3375rem;
+}
+
+/* line 40, ../sass/layout.scss */
+.em {
+  color: #f2433e;
+}
+
+/* line 41, ../sass/layout.scss */
+strong {
+  font-weight: 700;
+}
+
+/*全站glob*/
+/*wx-nav*/
+/* line 49, ../sass/layout.scss */
+.wx-nav {
+  position: relative;
+  background-color: #f2433e;
+  color: #fff;
+  line-height: 1.6875rem;
+}
+/* line 54, ../sass/layout.scss */
+.wx-nav .wx-nav-back {
+  position: absolute;
+  height: 100%;
+  width: 12%;
+  background-color: #ed1610;
+  text-align: center;
+}
+/* line 60, ../sass/layout.scss */
+.wx-nav .wx-nav-back .iconfont {
+  font-size: 0.84375rem;
+}
+/* line 64, ../sass/layout.scss */
+.wx-nav .wx-nav-box {
+  font-size: 0.4725rem;
+  text-align: center;
+}
+
+/*tab切换*/
+/* line 74, ../sass/layout.scss */
+.wx-tab-box {
+  background: #fff;
+}
+/* line 76, ../sass/layout.scss */
+.wx-tab-box .tab-nav {
+  display: flex;
+  text-align: center;
+}
+/* line 79, ../sass/layout.scss */
+.wx-tab-box .tab-nav li {
+  flex: 1;
+  margin: 0.59062rem 0;
+  font-size: px2rem(28);
+  color: #62666f;
+}
+/* line 84, ../sass/layout.scss */
+.wx-tab-box .tab-nav li + li {
+  border-left: 1px solid #ccc;
+}
+/* line 87, ../sass/layout.scss */
+.wx-tab-box .tab-nav li.active {
+  color: #f2433e;
+}
+/* line 92, ../sass/layout.scss */
+.wx-tab-box .tab-item {
+  display: none;
+  padding: 0.42188rem 0.50625rem;
+}
+/* line 95, ../sass/layout.scss */
+.wx-tab-box .tab-item.active {
+  display: block;
+}
+
+/*表格*/
+/* line 103, ../sass/layout.scss */
+.wx-table {
+  width: 100%;
+  font-size: px2rem(24);
+  text-align: center;
+}
+/* line 107, ../sass/layout.scss */
+.wx-table th, .wx-table td {
+  text-align: center;
+  padding: 0.42188rem 0;
+}
+/* line 111, ../sass/layout.scss */
+.wx-table tr {
+  border-bottom: 1px dashed #EFE8E8;
+}
+/* line 114, ../sass/layout.scss */
+.wx-table thead tr:first-child {
+  border-bottom: 1px solid #ccc;
+}
+
+/*按钮*/
+/* line 120, ../sass/layout.scss */
+.wx-btn {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: 0.4725rem;
+  padding: 0.42188rem 0;
+  background-color: #fff;
+  color: #333;
+  text-decoration: none;
+}
+
+/* line 132, ../sass/layout.scss */
+.wx-btn-revest {
+  display: inline-block;
+  width: 6.75rem;
+  color: #f2433e;
+  border: 1px solid;
+}
+
+/* line 138, ../sass/layout.scss */
+.wx-btn-sure {
+  background-color: #f2433e;
+  color: #FFF;
+}
+
+/* line 142, ../sass/layout.scss */
+.wx-btn-countdown {
+  background-color: #b0b0b0;
+  color: #FFF;
+}
+
+/* line 146, ../sass/layout.scss */
+.wx-btn-over {
+  background-color: #b0b0b0;
+  color: #666666;
+}
+
+/* line 150, ../sass/layout.scss */
+.wx-btn-logout {
+  width: 9.95625rem;
+  margin-left: 0.42188rem;
+  position: fixed;
+  bottom: 0;
+  border-radius: 5px;
+}
+
+/* line 157, ../sass/layout.scss */
+.wx-fix-bt {
+  position: fixed;
+  bottom: 0;
+  z-index: 200;
+}
+
+/*背景*/
+/* line 164, ../sass/layout.scss */
+.bg-gray {
+  background: #f0eff5;
+}
+
+/*tips*/
+/* line 167, ../sass/layout.scss */
+.wx-tips-box {
+  position: absolute;
+  padding: 0.16875rem 0.42188rem;
+  background-color: #484749;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  transform: translate(-50%, 0);
+}
+/* line 176, ../sass/layout.scss */
+.wx-tips-box .wx-tips-arrow {
+  position: absolute;
+  border: 8px solid transparent;
+}
+/* line 180, ../sass/layout.scss */
+.wx-tips-box .wx-tips-arrowdown {
+  bottom: -16px;
+  left: 50%;
+  margin-left: -8px;
+  border-top-color: #484749;
+}
+/* line 186, ../sass/layout.scss */
+.wx-tips-box .wx-tips-arrowup {
+  top: -16px;
+  left: 50%;
+  margin-left: -8px;
+  border-bottom-color: #484749;
+}
+/* line 192, ../sass/layout.scss */
+.wx-tips-box .wx-tips-arrowleft {
+  top: 50%;
+  left: -16px;
+  margin-top: -8px;
+  border-right-color: #484749;
+}
+/* line 198, ../sass/layout.scss */
+.wx-tips-box .wx-tips-arrowright {
+  top: 50%;
+  right: -16px;
+  margin-top: -8px;
+  border-left-color: #484749;
+}
+
+/* line 212, ../sass/layout.scss */
+.pp-dialog .pp-modal .pp-modal-footer .pp-btn-group .pp-modal-btn {
+  background: #FFF;
+}
+/* line 219, ../sass/layout.scss */
+.pp-dialog .active {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+/* line 222, ../sass/layout.scss */
+.pp-dialog .pp-loading {
+  position: fixed;
+  top: 50%;
+  left: 52%;
+}
+
+/* line 229, ../sass/layout.scss */
+.main-menu {
+  width: 100%;
+  display: -webkit-box;
+  /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;
+  /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;
+  /* TWEENER - IE 10 */
+  display: -webkit-flex;
+  /* NEW - Chrome */
+  display: flex;
+  /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  justify-content: space-between;
+  border-top: 1px solid #b2b2b6;
+  background: #fff;
+}
+/* line 235, ../sass/layout.scss */
+.main-menu .menu-item {
+  -webkit-box-flex: 1;
+  /* OLD - iOS 6-, Safari 3.1-6 */
+  -moz-box-flex: 1;
+  /* OLD - Firefox 19- */
+  -webkit-flex: 1;
+  /* Chrome */
+  -ms-flex: 1;
+  /* IE 10 */
+  flex: 1;
+  /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  color: #818187;
+  text-align: center;
+}
+/* line 240, ../sass/layout.scss */
+.main-menu .menu-item a {
+  color: #818187;
+}
+/* line 243, ../sass/layout.scss */
+.main-menu .menu-item .icon {
+  display: block;
+  padding: 0.16875rem 0;
+  font-size: 1.0125rem;
+}
+/* line 249, ../sass/layout.scss */
+.main-menu .menu-item p {
+  padding-bottom: 0.16875rem;
+}
+
+/* line 255, ../sass/layout.scss */
+.wx-scroll-wrap {
+  display: -webkit-box;
+  /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;
+  /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;
+  /* TWEENER - IE 10 */
+  display: -webkit-flex;
+  /* NEW - Chrome */
+  display: flex;
+  /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+/* line 264, ../sass/layout.scss */
+.wx-scroll-wrap .iscroll-bd {
+  -webkit-box-flex: 1;
+  /* OLD - iOS 6-, Safari 3.1-6 */
+  -moz-box-flex: 1;
+  /* OLD - Firefox 19- */
+  -webkit-flex: 1;
+  /* Chrome */
+  -ms-flex: 1;
+  /* IE 10 */
+  flex: 1;
+  /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  overflow: hidden;
+  position: relative;
+}
+/* line 268, ../sass/layout.scss */
+.wx-scroll-wrap .iscroll-bd .refresh, .wx-scroll-wrap .iscroll-bd .reload {
+  position: absolute;
+  left: 45%;
+  font-size: 45px;
+  color: #f2433e;
+}
+/* line 274, ../sass/layout.scss */
+.wx-scroll-wrap .iscroll-bd .refresh {
+  top: 30px;
+}
+/* line 277, ../sass/layout.scss */
+.wx-scroll-wrap .iscroll-bd .reload {
+  bottom: 30px;
+}
+/* line 281, ../sass/layout.scss */
+.wx-scroll-wrap .wx-nav {
+  height: 1.6875rem;
+}
+/* line 284, ../sass/layout.scss */
+.wx-scroll-wrap .iscroll-c {
+  z-index: 10;
+}

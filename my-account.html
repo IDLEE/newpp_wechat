@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name='viewport' content='width=device-width,minimum-scale=1.0 maximum-scale=1.0 user-scalable=no'>
+    <meta name="format-detection" content="telephone=no" />
+	<title>我的账户</title>
+	<link rel="stylesheet" href="./src/iconfont/iconfont.css" />
+    <link rel="stylesheet" href="./src/stylesheets/base.css" />
+    <link rel="stylesheet" href="./src/stylesheets/common.css" />
+	<script src="./src/js/common/compatible.js"></script>
+</head>
+<div class="wx-scroll-wrap">
+
+	<div class="wx-nav nav-button nav-history-back">
+	    <div data-js="back" class="wx-nav-back">
+	        <i class="iconfont"></i>
+	    </div>
+	    <div class="wx-nav-box">我的账户</div>
+	</div>
+
+<div class="iscroll-bd" id="iscroll-bd">
+    <div class="wx-ac wx-warp">
+	    <section class="ac-hd">
+		    <div class="user">
+			    <a href="setting.html" class="user-set set-common">
+				    <i class="iconfont setting"></i>
+			    </a>
+			    <div class="user-sign sign-common" data-id="userSign">
+				    <i class="iconfont qiandao"></i><span data-id="userSignTxt">已</span>签到
+			    </div>
+			    <div class="user-photo ac-user-photo">
+				    <div class="photo-box">
+					    <div class="photo">
+						    <img data-id="userHead" src="./src/images/head-test.png" alt="">
+					    </div>
+					    <span class="level">P<em data-id="userLevel">4</em></span>
+				    </div>
+				    <div class="nick" data-id="nickName">尊敬的SuperMaster，您好！</div>
+			    </div>
+			    <div class="user-assets assets-common">
+				    <div class="cont net-assets">
+					    <span class="num" data-id="totalAmount">181,712,582.89</span>
+					    <div class="des">个人净资产(元)</div>
+				    </div>
+				    <div class="cont balance">
+					    <span class="num" data-id="amount">116,940,355.55</span>
+					    <div class="des">账户余额(元)</div>
+				    </div>
+			    </div>
+		    </div>
+
+		    <div class="user-ctrl">
+			    <a class="btn-ctrl atms" href="/Withdraw">提现</a>
+			    <a class="btn-ctrl recharge" href="/Recharge">充值</a>
+		    </div>
+	    </section>
+
+	    <section class="ac-bd user-item mtb20">
+		    
+		    <div class="user-act">
+			    <a href="/UserCenter/InvestmentRecords">
+				    <div class="icon">
+					    <i class="iconfont touzi"></i>
+				    </div>
+				    <div class="detail">
+					    <div class="name">我的投资</div>
+					    <div class="txt"><em id="investmentRecordCount">2574</em>笔持有中</div>
+				    </div>
+				    <div class="arrow">
+					    <i class="iconfont arrow"></i>
+				    </div>
+			    </a>
+		    </div>
+		    <div class="user-act prod-lhb">
+			    <a href="/DailyBao">
+				    <div class="icon">
+					    <i class="iconfont linghuobao"></i>
+				    </div>
+				    <div class="detail">
+					    <div class="name">灵活宝</div>
+				    </div>
+				    <div class="arrow">
+					    <i class="iconfont arrow"></i>
+				    </div>
+			    </a>
+		    </div>
+		    <div class="user-act t-record">
+			    <a href="/UserCenter/UserRecords">
+				    <div class="icon">
+					    <i class="iconfont jilu"></i>
+				    </div>
+				    <div class="detail">
+					    <div class="name">交易记录</div>
+				    </div>
+				    <div class="arrow">
+					    <i class="iconfont arrow"></i>
+				    </div>
+			    </a>
+		    </div>
+
+		    <div class="user-act indep-mod my-coupon mt20">
+			    <a href="/UserCenter/MyCoupon">
+				    <div class="icon">
+					    <i class="iconfont quan"></i>
+				    </div>
+				    <div class="detail">
+					    <div class="name">我的赠券</div>
+					    <div class="txt"><em data-id="canUseCoupon">5</em>张可用</div>
+				    </div>
+				    <div class="arrow">
+					    <i class="iconfont arrow"></i>
+				    </div>
+			    </a>
+		    </div>
+
+		    <div class="user-act indep-mod vip-center mt20">
+			    <a href="/Vip">
+				    <div class="icon">
+					    <i class="iconfont huiyuan"></i>
+				    </div>
+				    <div class="detail">
+					    <div class="name">会员中心</div>
+				    </div>
+				    <div class="arrow">
+					    <i class="iconfont arrow"></i>
+				    </div>
+			    </a>
+		    </div>
+
+		    <div class="user-act indep-mod vip-center mt20" style="opacity:0;">
+			    <a href="/Vip">
+				    <div class="icon">
+					    <i class="iconfont huiyuan"></i>
+				    </div>
+				    <div class="detail">
+					    <div class="name">会员中心</div>
+				    </div>
+				    <div class="arrow">
+					    <i class="iconfont arrow"></i>
+				    </div>
+			    </a>
+		    </div>
+
+
+	    </section>
+
+	    <div data-id="tipsBox" class="tips-box">
+	        <div class="cont">
+		        <div class="txt">
+		    	    <h3 data-id="userScore">--</h3>
+		    	    <p class="mt20" data-id="signSucTxt">签到成功，获得<em>--</em>积分</p>
+		        </div>
+	        </div>
+		    <div class="bg" data-id="tips-box-bg"></div>
+	    </div>
+    </div>
+</div>
+
+<footer class="wx-footer">
+    <div class="main-menu">
+        <div class="menu-item">
+            <a href="project-list.html">
+                <i class="icon iconfont"></i>
+                <p>理财</p>
+            </a>
+        </div>
+        <div class="menu-item">
+            <a href="/PPPartner">
+                <i class="icon iconfont"></i>
+                <p>佣金</p>
+            </a>
+        </div>
+        <div class="menu-item">
+            <a href="/UserCenter">
+                <i class="icon iconfont"></i>
+                <p>我</p>
+            </a>
+        </div>
+    </div>
+</footer>
+<script src="./src/js/common/compatible.js?v=20150710"></script>
+<script src="./src/js/zepto.min.js?v=20150710"></script>
+<script src="./src/js/common/common.js?v=20150710"></script>
+<script src="./ppmobile/assets/pp-mobile.js?v=20150710"></script>
+<script src="./src/js/iscroll-probe.js?v=20150710"></script>
+<script>
+    //问题一：头像的url（区分男女）
+
+    new IScroll('#iscroll-bd', {
+        mouseWheel: false,
+        preventDefault:false
+    });
+    document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+
+    $("[data-id='tips-box-bg']").on("click", function () {
+        console.log("close");
+        $("[data-id='tipsBox']").hide();
+    });
+
+    function showSignMsg(msg) {
+        $("[data-id='userScore']").text("");
+        $("[data-id='signSucTxt']").removeClass("mt20").html(msg);
+    }
+</script>
+
+
+
+    
+    </div>
+</html>
