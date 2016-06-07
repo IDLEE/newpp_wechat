@@ -52,7 +52,7 @@
 		.coupon-t{
 			text-align: center;
 			width: 28%;
-			border-right: 3px dotted #ccc;
+			border-right: 2px dotted #ccc;
 			p{
 				line-height: 1.4;
 			}
@@ -78,8 +78,8 @@
 			position: absolute;
 			right: px2rem(-38);
 			bottom: px2rem(-40);;
-			width:px2rem(76); 
-			height:px2rem(76); 
+			width:px2rem(76);
+			height:px2rem(76);
 			background-color: #fa635e;
 			@include transform(rotate(45deg));
 			.iconfont{
@@ -100,7 +100,7 @@
 			width: 62%;
 		}
 		.wx-btn-sure{
-			width: 10%;    
+			width: 10%;
     		border-radius: 5px;
     		font-size: px2rem(24);
     		position: relative;

@@ -936,7 +936,7 @@ strong {
 .wx-mcoupon .mcoupon-item .coupon-t {
   text-align: center;
   width: 28%;
-  border-right: 3px dotted #ccc;
+  border-right: 2px dotted #ccc;
 }
 /* line 56, ../sass/my-coupon.scss */
 .wx-mcoupon .mcoupon-item .coupon-t p {
