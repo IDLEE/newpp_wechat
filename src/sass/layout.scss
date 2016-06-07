@@ -13,7 +13,7 @@ body{
 	color: $cblack;
 	background: #f0eff5;
 	font-size: px2rem(24);
-	font-family: 'microsoft yahei';
+	font-family: 'Myriad Set Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'microsoft yahei';
 	-webkit-tap-highlight-color:rgba(0,0,0,0);
 }
 
@@ -42,7 +42,7 @@ strong{font-weight: 700;}
 
 /*全站glob*/
 .wx-wrap{
-	
+
 }
 
 /*wx-nav*/
@@ -96,7 +96,7 @@ strong{font-weight: 700;}
 			display: block;
 		}
 	}
-	
+
 }
 
 /*表格*/
@@ -215,7 +215,7 @@ strong{font-weight: 700;}
 			}
 		}
 	}
-	
+
 	.active{
 		background-color: rgba(255,255,255,0.4);
 	}
@@ -265,7 +265,7 @@ strong{font-weight: 700;}
 		@include flex-row(1);
 		overflow: hidden;
 		position: relative;
-		.refresh,& .reload { 
+		.refresh,& .reload {
 	        position: absolute;
 	        left: 45%;
 	        font-size: 45px;
@@ -274,7 +274,7 @@ strong{font-weight: 700;}
 	    .refresh{
 	    	top: 30px;
 	    }
-	    .reload { 
+	    .reload {
 	        bottom: 30px;
 	    }
 	}
