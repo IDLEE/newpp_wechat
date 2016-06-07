@@ -158,7 +158,7 @@ body {
   color: #333;
   background: #f0eff5;
   font-size: 0.405rem;
-  font-family: 'microsoft yahei';
+  font-family: 'Myriad Set Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'microsoft yahei';
   -webkit-tap-highlight-color: transparent;
 }
 
@@ -531,10 +531,14 @@ strong {
   bottom: 30px;
 }
 /* line 281, ../sass/layout.scss */
+.wx-scroll-wrap .wx-detail-wrap {
+  position: relative;
+}
+/* line 284, ../sass/layout.scss */
 .wx-scroll-wrap .wx-nav {
   height: 1.6875rem;
 }
-/* line 284, ../sass/layout.scss */
+/* line 287, ../sass/layout.scss */
 .wx-scroll-wrap .iscroll-c {
   z-index: 10;
 }
