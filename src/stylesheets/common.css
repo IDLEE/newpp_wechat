@@ -742,7 +742,7 @@ strong {
 /* line 153, ../sass/prj-detial.scss */
 .wx-d-bd .v {
   float: right;
-  font-size: 0.4725rem;
+  font-size: 0.405rem;
   color: #62666f;
 }
 /* line 154, ../sass/prj-detial.scss */
@@ -969,7 +969,7 @@ strong {
   bottom: -0.675rem;
   width: 1.2825rem;
   height: 1.2825rem;
-  background-color: #f2433e;
+  background-color: #fa635e;
   -moz-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
