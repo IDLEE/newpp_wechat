@@ -304,7 +304,7 @@ strong {
 }
 /* line 111, ../sass/layout.scss */
 .wx-table tr {
-  border-bottom: 1px dashed #EFE8E8;
+  border-bottom: 1px dotted #EFE8E8;
 }
 /* line 114, ../sass/layout.scss */
 .wx-table thead tr:first-child {
