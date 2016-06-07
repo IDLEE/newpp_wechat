@@ -1,7 +1,7 @@
 /*微信-我的账户*/
 
 .wx-ac{
-	.ac-hd{ 
+	.ac-hd{
 		position: relative;
 		background: -webkit-linear-gradient(#ff5b3d,#fb543d,#f5493e,#f3443e);
 		.user{}
@@ -54,7 +54,7 @@
 		display:inline-block;
 		margin-right:px2rem(10);
     	vertical-align: baseline;
-	}	
+	}
 }
 
 /*头像&简称*/
@@ -99,7 +99,7 @@
 	@include set-box;
 	margin-top:px2rem(15);
 	.cont{
-		@include box-flex(1); 	
+		@include box-flex(1);
 		text-align: center;
 		.num{
 			font-size:px2rem(36);
@@ -134,7 +134,7 @@
 	background:#FFF;
 	.btn-ctrl{
 		display:block;
-		-webkit-box-flex: 1; 
+		-webkit-box-flex: 1;
 		text-align: center;
 		height:px2rem(90);
 		line-height:px2rem(90);
@@ -164,7 +164,7 @@
 
 .user-item{
 	.user-act{
-		height:px2rem(102);
+		height:px2rem(108);
 		font-size:px2rem(28);
 		background:#FFF;
 		>a{
@@ -300,4 +300,3 @@
 		}
 	}
 }
-
