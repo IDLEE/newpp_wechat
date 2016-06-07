@@ -706,7 +706,7 @@ strong {
 /* line 133, ../sass/prj-detial.scss */
 .wx-d-hd .prj-list li {
   flex: 1;
-  border-right: 1px solid #ccc;
+  border-right: 1px solid #ececf0;
 }
 /* line 135, ../sass/prj-detial.scss */
 .wx-d-hd .prj-list li:last-child {
