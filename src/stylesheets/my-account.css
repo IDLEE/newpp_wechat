@@ -1,23 +1,23 @@
 /*
 Error: Undefined mixin 'set-box'.
-        on line 99 of /Users/idlee/Desktop/newpp_wechat/src/sass/my-account.scss, in `set-box'
-        from line 99 of /Users/idlee/Desktop/newpp_wechat/src/sass/my-account.scss
+        on line 100 of /Users/idlee/Desktop/newpp_wechat/src/sass/my-account.scss, in `set-box'
+        from line 100 of /Users/idlee/Desktop/newpp_wechat/src/sass/my-account.scss
 
-94: 	}
-95: }
-96: 
-97: /*净资产&余额*\/
-98: .assets-common{
-99: 	@include set-box;
-100: 	margin-top:px2rem(40);
-101: 	.cont{
-102: 		@include box-flex(1);
-103: 		text-align: center;
-104: 		.num{
+95: 	}
+96: }
+97: 
+98: /*净资产&余额*\/
+99: .assets-common{
+100: 	@include set-box;
+101: 	margin-top:px2rem(40);
+102: 	.cont{
+103: 		@include box-flex(1);
+104: 		text-align: center;
+105: 		.num{
 
 Backtrace:
-/Users/idlee/Desktop/newpp_wechat/src/sass/my-account.scss:99:in `set-box'
-/Users/idlee/Desktop/newpp_wechat/src/sass/my-account.scss:99
+/Users/idlee/Desktop/newpp_wechat/src/sass/my-account.scss:100:in `set-box'
+/Users/idlee/Desktop/newpp_wechat/src/sass/my-account.scss:100
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:351:in `block in visit_mixin'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/stack.rb:98:in `block in with_mixin'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
@@ -74,4 +74,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'set-box'.\A         on line 99 of /Users/idlee/Desktop/newpp_wechat/src/sass/my-account.scss, in `set-box'\A         from line 99 of /Users/idlee/Desktop/newpp_wechat/src/sass/my-account.scss\A \A 94: 	}\A 95: }\A 96: \A 97: /*净资产&余额*/\A 98: .assets-common{\A 99: 	@include set-box;\A 100: 	margin-top:px2rem(40);\A 101: 	.cont{\A 102: 		@include box-flex(1);\A 103: 		text-align: center;\A 104: 		.num{"; }
+  content: "Error: Undefined mixin 'set-box'.\A         on line 100 of /Users/idlee/Desktop/newpp_wechat/src/sass/my-account.scss, in `set-box'\A         from line 100 of /Users/idlee/Desktop/newpp_wechat/src/sass/my-account.scss\A \A 95: 	}\A 96: }\A 97: \A 98: /*净资产&余额*/\A 99: .assets-common{\A 100: 	@include set-box;\A 101: 	margin-top:px2rem(40);\A 102: 	.cont{\A 103: 		@include box-flex(1);\A 104: 		text-align: center;\A 105: 		.num{"; }

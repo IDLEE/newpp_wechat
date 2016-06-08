@@ -1162,8 +1162,9 @@ strong {
   color: #f84d3e;
   border-radius: 50%;
   font-size: 0.3375rem;
+  font-style: italic;
 }
-/* line 90, ../sass/my-account.scss */
+/* line 91, ../sass/my-account.scss */
 .ac-user-photo .nick {
   margin-top: 0.27rem;
   text-align: center;
@@ -1171,7 +1172,7 @@ strong {
 }
 
 /*净资产&余额*/
-/* line 98, ../sass/my-account.scss */
+/* line 99, ../sass/my-account.scss */
 .assets-common {
   display: -webkit-box;
   display: -moz-box;
@@ -1180,7 +1181,7 @@ strong {
   display: box;
   margin-top: 0.675rem;
 }
-/* line 101, ../sass/my-account.scss */
+/* line 102, ../sass/my-account.scss */
 .assets-common .cont {
   -webkit-box-flex: 1;
   -moz-box-flex: 1;
@@ -1189,21 +1190,21 @@ strong {
   box-flex: 1;
   text-align: center;
 }
-/* line 104, ../sass/my-account.scss */
+/* line 105, ../sass/my-account.scss */
 .assets-common .cont .num {
   font-size: 0.6075rem;
 }
-/* line 107, ../sass/my-account.scss */
+/* line 108, ../sass/my-account.scss */
 .assets-common .cont .des {
   padding-top: 0.16875rem;
   padding-bottom: 0.50625rem;
   font-size: 0.3375rem;
 }
-/* line 113, ../sass/my-account.scss */
+/* line 114, ../sass/my-account.scss */
 .assets-common .net-assets {
   position: relative;
 }
-/* line 115, ../sass/my-account.scss */
+/* line 116, ../sass/my-account.scss */
 .assets-common .net-assets:after {
   display: block;
   content: "";
@@ -1217,13 +1218,13 @@ strong {
 }
 
 /*提现&充值*/
-/* line 131, ../sass/my-account.scss */
+/* line 132, ../sass/my-account.scss */
 .user-ctrl {
   display: -webkit-box;
   font-size: 0.4725rem;
   background: #FFF;
 }
-/* line 135, ../sass/my-account.scss */
+/* line 136, ../sass/my-account.scss */
 .user-ctrl .btn-ctrl {
   display: block;
   -webkit-box-flex: 1;
@@ -1231,17 +1232,17 @@ strong {
   height: 1.51875rem;
   line-height: 1.51875rem;
 }
-/* line 141, ../sass/my-account.scss */
+/* line 142, ../sass/my-account.scss */
 .user-ctrl .btn-ctrl span {
   display: block;
   border-right: 1px solid #d0d0d2;
 }
-/* line 146, ../sass/my-account.scss */
+/* line 147, ../sass/my-account.scss */
 .user-ctrl .atms {
   color: #6e6e74;
   position: relative;
 }
-/* line 149, ../sass/my-account.scss */
+/* line 150, ../sass/my-account.scss */
 .user-ctrl .atms:after {
   display: block;
   content: "";
@@ -1252,27 +1253,27 @@ strong {
   right: 0;
   top: 30%;
 }
-/* line 160, ../sass/my-account.scss */
+/* line 161, ../sass/my-account.scss */
 .user-ctrl .recharge {
   color: #f2433e;
 }
 
-/* line 166, ../sass/my-account.scss */
+/* line 167, ../sass/my-account.scss */
 .user-item .user-act {
   height: 1.8225rem;
   font-size: 0.4725rem;
   background: #FFF;
 }
-/* line 170, ../sass/my-account.scss */
+/* line 171, ../sass/my-account.scss */
 .user-item .user-act > a {
   color: #64646b;
 }
-/* line 172, ../sass/my-account.scss */
+/* line 173, ../sass/my-account.scss */
 .user-item .user-act > a .icon {
   position: relative;
   width: 1.755rem;
 }
-/* line 175, ../sass/my-account.scss */
+/* line 176, ../sass/my-account.scss */
 .user-item .user-act > a .icon .iconfont {
   position: absolute;
   top: 50%;
@@ -1283,19 +1284,19 @@ strong {
   transform: translate(-50%, -50%);
   font-size: 0.70875rem;
 }
-/* line 180, ../sass/my-account.scss */
+/* line 181, ../sass/my-account.scss */
 .user-item .user-act > a .detail {
   display: -webkit-box;
   -webkit-box-align: center;
   width: 8.01563rem;
   border-top: 1px solid #ccccd2;
 }
-/* line 185, ../sass/my-account.scss */
+/* line 186, ../sass/my-account.scss */
 .user-item .user-act > a .detail .name {
   width: 30%;
   color: #333;
 }
-/* line 189, ../sass/my-account.scss */
+/* line 190, ../sass/my-account.scss */
 .user-item .user-act > a .detail .txt {
   width: 70%;
   font-size: 0.405rem;
@@ -1304,42 +1305,42 @@ strong {
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-/* line 194, ../sass/my-account.scss */
+/* line 195, ../sass/my-account.scss */
 .user-item .user-act > a .detail .txt em {
   padding: 0 0.0675rem;
   color: #f2433e;
   position: relative;
 }
-/* line 201, ../sass/my-account.scss */
+/* line 202, ../sass/my-account.scss */
 .user-item .user-act > a > .arrow {
   width: 1.02938rem;
   border-top: 1px solid #ccccd2;
   display: -webkit-box;
   -webkit-box-align: center;
 }
-/* line 206, ../sass/my-account.scss */
+/* line 207, ../sass/my-account.scss */
 .user-item .user-act > a > .arrow .iconfont {
   margin-left: 0.08438rem;
   color: #ccccd2;
   font-size: 0.50625rem;
   font-weight: bold;
 }
-/* line 213, ../sass/my-account.scss */
+/* line 214, ../sass/my-account.scss */
 .user-item .user-act > a > div {
   float: left;
   height: 100%;
 }
-/* line 220, ../sass/my-account.scss */
+/* line 221, ../sass/my-account.scss */
 .user-item .user-act:first-child > a .detail, .user-item .user-act:first-child > a .arrow {
   border-top: none;
 }
-/* line 226, ../sass/my-account.scss */
+/* line 227, ../sass/my-account.scss */
 .user-item .indep-mod > a .detail, .user-item .indep-mod > a .arrow {
   border-top: none;
 }
 
 /*红色点*/
-/* line 232, ../sass/my-account.scss */
+/* line 233, ../sass/my-account.scss */
 .tips {
   display: inline-block;
   width: 0.16875rem;
@@ -1351,24 +1352,24 @@ strong {
 }
 
 /*设置列表样式*/
-/* line 246, ../sass/my-account.scss */
+/* line 247, ../sass/my-account.scss */
 .st-item .user-act > a .icon {
   width: 0.50625rem;
 }
-/* line 249, ../sass/my-account.scss */
+/* line 250, ../sass/my-account.scss */
 .st-item .user-act > a .detail {
   width: 9.23063rem;
 }
-/* line 252, ../sass/my-account.scss */
+/* line 253, ../sass/my-account.scss */
 .st-item .user-act > a .arrow {
   width: 1.06313rem;
 }
-/* line 254, ../sass/my-account.scss */
+/* line 255, ../sass/my-account.scss */
 .st-item .user-act > a .arrow .iconfont {
   font-weight: normal;
 }
 
-/* line 262, ../sass/my-account.scss */
+/* line 263, ../sass/my-account.scss */
 .tips-box {
   display: none;
   position: fixed;
@@ -1378,7 +1379,7 @@ strong {
   height: 100%;
   z-index: 500;
 }
-/* line 270, ../sass/my-account.scss */
+/* line 271, ../sass/my-account.scss */
 .tips-box .bg {
   position: absolute;
   left: 0;
@@ -1388,7 +1389,7 @@ strong {
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 1;
 }
-/* line 279, ../sass/my-account.scss */
+/* line 280, ../sass/my-account.scss */
 .tips-box .cont {
   position: absolute;
   top: 50%;
@@ -1401,27 +1402,27 @@ strong {
   background-color: #FFF;
   border-radius: 15px;
 }
-/* line 284, ../sass/my-account.scss */
+/* line 285, ../sass/my-account.scss */
 .tips-box .cont .txt {
   text-align: center;
   padding: 0.75938rem 1.09688rem;
   min-width: 7.59375rem;
 }
-/* line 288, ../sass/my-account.scss */
+/* line 289, ../sass/my-account.scss */
 .tips-box .cont .txt h3 {
   font-size: 0.81rem;
   color: #f2433e;
 }
-/* line 291, ../sass/my-account.scss */
+/* line 292, ../sass/my-account.scss */
 .tips-box .cont .txt h3.is-signed {
   font-size: 0.405rem;
 }
-/* line 295, ../sass/my-account.scss */
+/* line 296, ../sass/my-account.scss */
 .tips-box .cont .txt p {
   font-size: 0.4725rem;
   line-height: 0.64125rem;
 }
-/* line 298, ../sass/my-account.scss */
+/* line 299, ../sass/my-account.scss */
 .tips-box .cont .txt p em {
   color: #f2433e;
 }
