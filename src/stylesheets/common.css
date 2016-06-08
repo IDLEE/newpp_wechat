@@ -1559,7 +1559,7 @@ a {
 .prj-panel .prj-btn {
   /*margin: 0 px2rem(40);*/
   width: 8.4375rem;
-  border-radius: 8px;
+  border-radius: 4px;
 }
 /* line 122, ../sass/home.scss */
 .prj-panel .prj-tag {
@@ -1585,7 +1585,7 @@ a {
 /* line 141, ../sass/home.scss */
 .prj-d-panel .prj-rate {
   padding: 1.0125rem 0;
-  font-size: 1.35rem;
+  font-size: 1.6875rem;
   color: #f2433e;
 }
 /* line 149, ../sass/home.scss */
@@ -1608,7 +1608,7 @@ a {
 }
 /* line 155, ../sass/home.scss */
 .prj-d-panel .prj-item > :first-child {
-  border-right: 1px solid #d2d2d2;
+  border-right: 1px solid #ececf0;
 }
 /* line 158, ../sass/home.scss */
 .prj-d-panel .prj-item > :last-child {
