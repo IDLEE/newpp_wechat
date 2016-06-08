@@ -374,35 +374,34 @@
 }
 /* line 166, ../sass/prj-detial.scss */
 .wx-d-bd .profit, .wx-d-bd .my-ticket {
-  color: #62666f;
   padding: 0.3375rem 0;
 }
-/* line 170, ../sass/prj-detial.scss */
+/* line 169, ../sass/prj-detial.scss */
 .wx-d-bd .bg-gray {
   margin: 0.3375rem 0;
 }
-/* line 176, ../sass/prj-detial.scss */
+/* line 175, ../sass/prj-detial.scss */
 .wx-d-bd input {
   width: 80%;
   border: 0;
   font-weight: 700;
   font-size: px2rem(48);
 }
-/* line 181, ../sass/prj-detial.scss */
+/* line 180, ../sass/prj-detial.scss */
 .wx-d-bd input:focus {
   outline: 0;
 }
-/* line 185, ../sass/prj-detial.scss */
+/* line 184, ../sass/prj-detial.scss */
 .wx-d-bd .error-tips {
   margin-bottom: 0.3375rem;
 }
-/* line 188, ../sass/prj-detial.scss */
+/* line 187, ../sass/prj-detial.scss */
 .wx-d-bd label {
   font-size: px2rem(32);
   font-family: Arial;
 }
 
-/* line 190, ../sass/prj-detial.scss */
+/* line 189, ../sass/prj-detial.scss */
 .section {
   margin-bottom: 0.3375rem;
   padding: 0.3375rem 0;
@@ -410,25 +409,25 @@
   text-align: center;
 }
 
-/* line 196, ../sass/prj-detial.scss */
+/* line 195, ../sass/prj-detial.scss */
 .wx-d-fd {
   background: #fff;
 }
 
-/* line 199, ../sass/prj-detial.scss */
+/* line 198, ../sass/prj-detial.scss */
 .wx-det-tips .det-tips-txt {
   padding: 0.42188rem 0.50625rem;
   font-size: 0.3375rem;
   color: #c48100;
   background-color: #ffebb4;
 }
-/* line 204, ../sass/prj-detial.scss */
+/* line 203, ../sass/prj-detial.scss */
 .wx-det-tips .det-tips-txt > a {
   color: #c48100;
   text-decoration: underline;
 }
 
-/* line 211, ../sass/prj-detial.scss */
+/* line 210, ../sass/prj-detial.scss */
 .prj-detail-iscroll {
   position: absolute;
   left: 0;
@@ -439,13 +438,13 @@
   overflow: hidden;
 }
 
-/* line 222, ../sass/prj-detial.scss */
+/* line 221, ../sass/prj-detial.scss */
 .invest-tips-box .error-tips {
   font-size: 0.3375rem;
   color: #f2433e;
 }
 
-/* line 228, ../sass/prj-detial.scss */
+/* line 227, ../sass/prj-detial.scss */
 .wx-prj-det {
   position: relative;
 }
