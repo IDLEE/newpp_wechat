@@ -1087,7 +1087,7 @@ strong {
 }
 /* line 21, ../sass/my-account.scss */
 .user .user-photo {
-  padding-top: 0.97875rem;
+  padding-top: 1.215rem;
 }
 
 /*设置*/
@@ -1101,7 +1101,7 @@ strong {
 .user-set .iconfont {
   color: #FFF;
   display: block;
-  font-size: 0.7425rem;
+  font-size: 0.675rem;
 }
 
 /* line 38, ../sass/my-account.scss */
@@ -1165,9 +1165,9 @@ strong {
 }
 /* line 90, ../sass/my-account.scss */
 .ac-user-photo .nick {
-  margin-top: 0.50625rem;
+  margin-top: 0.27rem;
   text-align: center;
-  font-size: 0.405rem;
+  font-size: 0.37125rem;
 }
 
 /*净资产&余额*/
@@ -1178,7 +1178,7 @@ strong {
   display: -ms-box;
   display: -o-box;
   display: box;
-  margin-top: 0.25313rem;
+  margin-top: 0.675rem;
 }
 /* line 101, ../sass/my-account.scss */
 .assets-common .cont {

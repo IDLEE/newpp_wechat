@@ -9,7 +9,7 @@ Error: Undefined mixin 'set-box'.
 97: /*净资产&余额*\/
 98: .assets-common{
 99: 	@include set-box;
-100: 	margin-top:px2rem(15);
+100: 	margin-top:px2rem(40);
 101: 	.cont{
 102: 		@include box-flex(1);
 103: 		text-align: center;
@@ -74,4 +74,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'set-box'.\A         on line 99 of /Users/idlee/Desktop/newpp_wechat/src/sass/my-account.scss, in `set-box'\A         from line 99 of /Users/idlee/Desktop/newpp_wechat/src/sass/my-account.scss\A \A 94: 	}\A 95: }\A 96: \A 97: /*净资产&余额*/\A 98: .assets-common{\A 99: 	@include set-box;\A 100: 	margin-top:px2rem(15);\A 101: 	.cont{\A 102: 		@include box-flex(1);\A 103: 		text-align: center;\A 104: 		.num{"; }
+  content: "Error: Undefined mixin 'set-box'.\A         on line 99 of /Users/idlee/Desktop/newpp_wechat/src/sass/my-account.scss, in `set-box'\A         from line 99 of /Users/idlee/Desktop/newpp_wechat/src/sass/my-account.scss\A \A 94: 	}\A 95: }\A 96: \A 97: /*净资产&余额*/\A 98: .assets-common{\A 99: 	@include set-box;\A 100: 	margin-top:px2rem(40);\A 101: 	.cont{\A 102: 		@include box-flex(1);\A 103: 		text-align: center;\A 104: 		.num{"; }
